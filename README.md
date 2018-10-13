@@ -40,7 +40,7 @@ googleplaygame.auth();
 You should provde the option for users to sign out
 
 ```
-googleplaygame.signout();
+googleplaygame.signOut();
 ```
 
 #### Auth status
@@ -98,7 +98,7 @@ Launches directly into the specified leaderboard:
 var data = {
 	leaderboardId: "board1"
 };
-googleplaygame.showLeaderboard(leaderboardId);
+googleplaygame.showLeaderboard(data);
 ```
 
 ### Achievements
